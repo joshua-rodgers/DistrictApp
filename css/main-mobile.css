@@ -1,0 +1,30 @@
+header {
+  text-align: center;
+  border-bottom: 2px solid gold;
+}
+main {
+  background-color: inherit;
+  margin-top: 20%;
+}
+.img-post {
+  background-color: white;
+  border-radius: 2px 2px;
+  box-shadow: 5px 6px  5px #ccc;
+}
+.post-img {
+  max-width: 100%;
+}
+.txt-post {
+  background-color: white;
+  border-radius: 2px 2px;
+  box-shadow: 5px 6px 5px #ccc;
+}
+.post-description {
+  padding: 10px;
+}
+.txt-post:last-child {
+  margin-bottom: 20px;
+}
+.img-post:last-child {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,32 @@
+body {
+  background-color: #777;
+}
+header {
+  text-align: center;
+  border-bottom: 2px solid gold;
+}
+main {
+  background-color: inherit;
+  margin-top: 20%;
+  text-align: center;
+}
+.selection-title {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
+  font-weight: 200;
+}
+.campus-link {
+  display: block;
+  width: 100%;
+  background-color: #777;
+  margin-top: 10px;
+  /*border: 1px solid gold;*/
+}
+a:link {
+  color: white;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+}
