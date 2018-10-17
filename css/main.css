@@ -115,3 +115,19 @@ header a:visited {
   font-size: 1.2em;
   font-weight: 200;
 }
+footer {
+	position: fixed;
+  width: 100%;
+  bottom: 0;
+  margin: 0 auto;
+	font-weight: 100;
+  background-color: purple;
+  border-top: 2px solid gold;
+}
+.footer-text {
+	font-family: "Montserrat", sans-serif;
+	font-size: .7em;
+	text-align: right;
+	margin-right: 5px;
+	color: white;
+}

@@ -1,17 +1,6 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Test App</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" media="screen and (max-width: 600px)" href="css/main-mobile.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400" rel="stylesheet">
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <a class="home-link" href="index.html"><h1 class="title">Dumas School District</h1></a>
-      </div>
-    </header>
+<?php
+  include('templates/main-header.html');
+?>
     <main class="content">
       <div class="img-post">
         <h2 class="post-title">A Rose Is a Rose</h2>
@@ -35,5 +24,6 @@
         <p class="post-description">This is an image post description.</p>
       </div>
     </main>
-  </body>
-</html>
+<?php
+  include('templates/footer.html');
+?>
